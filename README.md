@@ -14,6 +14,9 @@ model to represent the knowledge discovered using a Smart Adaptive
 Recommendations (SAR) algorithm. The knowledge representation is easy to
 understand.
 
+Usage
+-----
+
 The **demo** command applies the pre-built model to a demo data set with
 records from 10 users and shows the recommendation results for 2 users.
 
@@ -24,4 +27,4 @@ The **score** command applies the pre-built model to a supplied data set
 and shows the recommendation results for 2 users. Example **score**
 command:
 
-    $ ml score movie-recommender user10.csv
+    $ ml score movies user10.csv

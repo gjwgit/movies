@@ -22,9 +22,9 @@ MODEL_FILES = 			\
 
 # Include the standard Makefile template.
 
-include ../mlhub.mk
 include ../git.mk
 include ../pandoc.mk
+include ../mlhub.mk
 
 clean::
 	rm -rf README.txt output
