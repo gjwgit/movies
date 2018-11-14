@@ -6,21 +6,20 @@
 
 # List the files to be included in the .mlm package.
 
-MODEL_FILES = 			\
-	configure.R		\
-	data.R  		\
-        train.R			\
-	print.R			\
-        demo.R  		\
-	score.R			\
-        movie-recommender.R 	\
-        SAR_0.0.1.tar.gz	\
-	sar_model.RData		\
-	README.txt		\
-	DESCRIPTION.yaml 	\
-	data
+MODEL_FILES = 				\
+	train.R				\
+	configure.R			\
+	demo.R 				\
+	print.R				\
+	score.R				\
+	README.txt			\
+	DESCRIPTION.yaml		\
+        movie-recommender.R 		\
+        SAR_0.0.1.tar.gz		\
+	sar_model.RData			\
+	data.R  			\
 
-# Include the standard Makefile template.
+# Include standard Makefile templates.
 
 include ../git.mk
 include ../pandoc.mk
@@ -30,4 +29,5 @@ clean::
 	rm -rf README.txt output
 
 realclean:: clean
-	rm -rf movie-recommender*.mlm
+	rm -f 	$(MODEL)_*.mlm
+
