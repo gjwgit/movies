@@ -18,6 +18,8 @@ MODEL_FILES = 				\
         SAR_0.0.1.tar.gz		\
 	sar_model.RData			\
 	data.R  			\
+	data/ml-latest-small/user10.csv	\
+	data/ml-latest-small/map.csv	\
 
 # Include standard Makefile templates.
 
