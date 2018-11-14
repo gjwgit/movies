@@ -6,18 +6,12 @@ meta:
   keywords    : recommendation, R, SAR, movie recommendation
   modeller    : SAR
   type        : SAR local count
-  version     : 1.2.1
+  version     : 1.2.2
   display     : display
   section     : ecommence, entertainment
   author      : Fang Zhou <zhouf@microsoft.com>
   dependencies: R, SAR, caret, plyr, dplyr
-  filename     : pool/main/m/movies/movies_1.2.0.mlm
+  filename     : pool/main/m/movies/movies_1.2.2.mlm
 commands:
   demo     : Apply the model to a sample dataset.
   print    : Print a textual summary of the model.
-  score    :
-    description: Apply the model to a supplied dataset.
-    required: <csv file> The name of a CSV file containing a header and 6 columns.
-  train    :
-    description: Build a new model on your own data.
-    optional: <csv file> A CSV file containing columns representing userid, itemid, rating, time, title, genres.
