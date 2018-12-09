@@ -6,11 +6,12 @@ meta:
   keywords    : recommendation, R, SAR, movie recommendation
   modeller    : SAR
   type        : SAR local count
-  version     : 1.2.3
+  version     : 2.0.0
   display     : display
   section     : ecommence, entertainment
   author      : Fang Zhou <zhouf@microsoft.com>
-  dependencies: R, SAR, caret, plyr, dplyr
-  filename     : pool/main/m/movies/movies_1.2.3.mlm
+  maintainer  : Graham.Williams@togaware.com
+dependencies:
+  cran : SAR, caret, plyr, dplyr
 commands:
   demo     : Apply the model to a sample dataset.
