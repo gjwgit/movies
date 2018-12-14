@@ -11,6 +11,7 @@ meta:
   section     : ecommence, entertainment
   author      : Fang Zhou <zhouf@microsoft.com>
   maintainer  : Graham.Williams@togaware.com
+  filename    : pool/main/m/movies/movies_1.2.3.mlm
 dependencies:
   cran : SAR, caret, plyr, dplyr
 commands:
