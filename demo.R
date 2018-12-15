@@ -2,7 +2,7 @@
 # Introduce the concept SAR model for movie recommendations
 #
 # Original author: Fang Zhou
-# Updates to MLHub Requirements: Graham Williams
+# Rewritten and Updated to MLHub Requirements: Graham Williams
 
 nuser <- 2
 
