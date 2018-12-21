@@ -12,9 +12,8 @@ meta:
   author      : Fang Zhou <zhouf@microsoft.com>
   maintainer  : Graham.Williams@togaware.com
   url         : https://github.com/gjwgit/movies
-  filename    : pool/main/m/movies/movies_1.2.3.mlm
 dependencies:
-  cran: caret, plyr, dplyr
+  cran: ggplot2, caret, plyr, dplyr
   github: Hong-Revo/SAR
 commands:
   demo     : Apply the model to a sample dataset.
