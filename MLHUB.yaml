@@ -6,13 +6,15 @@ meta:
   keywords    : recommendation, R, SAR, movie recommendation
   modeller    : SAR
   type        : SAR local count
-  version     : 2.0.0
+  version     : 2.0.1
   display     : display
   section     : ecommence, entertainment
   author      : Fang Zhou <zhouf@microsoft.com>
   maintainer  : Graham.Williams@togaware.com
+  url         : https://github.com/gjwgit/movies
   filename    : pool/main/m/movies/movies_1.2.3.mlm
 dependencies:
-  cran : SAR, caret, plyr, dplyr
+  cran: caret, plyr, dplyr
+  github: Hong-Revo/SAR
 commands:
   demo     : Apply the model to a sample dataset.
