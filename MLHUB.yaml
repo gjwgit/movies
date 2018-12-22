@@ -14,6 +14,6 @@ meta:
   url         : https://github.com/gjwgit/movies
 dependencies:
   cran: ggplot2, caret, plyr, dplyr
-  github: Hong-Revo/SAR
+  local: SAR
 commands:
   demo     : Apply the model to a sample dataset.
