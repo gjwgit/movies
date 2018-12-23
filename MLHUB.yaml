@@ -6,7 +6,7 @@ meta:
   keywords    : recommendation, R, SAR, movie recommendation
   modeller    : SAR
   type        : SAR local count
-  version     : 2.0.1
+  version     : 2.0.2
   display     : display
   section     : ecommence, entertainment
   author      : Fang Zhou <zhouf@microsoft.com>
@@ -14,6 +14,17 @@ meta:
   url         : https://github.com/gjwgit/movies
 dependencies:
   cran: ggplot2, caret, plyr, dplyr
-  local: SAR
+  R: deps/SAR_0.0.1.tar.gz
+  files:
+    - data
+    - data.R
+    - demo.R
+    - movie-recommender.R
+    - print.R
+    - README.md
+    - sar_model.RData
+    - score.R
+    - train.R
+    - SAR_0.0.1.tar.gz: deps/
 commands:
   demo     : Apply the model to a sample dataset.
