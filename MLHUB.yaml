@@ -14,7 +14,7 @@ dependencies:
     - ggplot2
     - caret
     - plyr
-    - dplyr=1.0.3
+    - dplyr
   R:
     - SAR_0.0.1.tar.gz
   files:
