@@ -4,7 +4,7 @@ meta:
   title       : Movie recommendation using the SAR algorthm.
   languages   : R
   keywords    : recommendation, R, SAR, movie recommendation
-  version     : 2.0.3
+  version     : 2.0.4
   section     : ecommence, entertainment
   author      : Fang Zhou <zhouf@microsoft.com>
   maintainer  : Graham.Williams@togaware.com
